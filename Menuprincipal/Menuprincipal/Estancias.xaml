@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuprincipal.Estancias"
+             Title="Salon de la fama">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10, 20, 10, 20">
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> Michael Schumacher 2000-2004 </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="michelschumacher.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>Desde que comenzó el Campeonato Mundial de Pilotos de Fórmula Uno en 1950, el título lo han ganado 32 pilotos diferentes, 15 de los cuales ganaron más de un campeonato. De los múltiples campeones, el más prolífico fue Juan Manuel Fangio, cuyo récord de cinco títulos se mantuvo durante cinco décadas hasta que fue eclipsado por el piloto más exitoso de la historia del deporte. Siete veces campeón, Michael Schumacher también tiene casi todos los récords de puntuación en el libro por un margen considerable. Aunque su ética a veces fue cuestionada, al igual que su decisión de regresar después de retirarse, su dominio absoluto en su mejor momento está fuera de toda duda ...
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> Fernando Alonso - 2005, 2006 </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="fernandoalonso.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>El 28º Campeón del Mundo de Pilotos de Fórmula 1 era en ese momento el más joven de la historia. Con tan solo 24 años, Fernando Alonso también llevó al equipo Renault al Campeonato de Constructores de 2005, poniendo así fin al reinado de la combinación Michael Schumacher-Ferrari que había dominado durante tanto tiempo. El joven precoz y agradable que hizo tanta historia tan pronto lució cómodamente la corona: una nueva estrella brillante, pulida y perfectamente preparada. La confirmación de su brillantez se produjo en 2006 cuando defendió con éxito su título contra la fuerte oposición de Schumacher, cuyo posterior retiro dejó a Alonso en una buena posición para sucederlo como la superestrella residente de la Fórmula 1 ...
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> Kimi Raikkonen 2007 </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="kimiraikkonen.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>Acelerado en el deporte con el CV más corto en cuatro ruedas, el recién llegado desconocido que vino de la nada y no dijo casi nada demostró de inmediato que sabía exactamente lo que estaba haciendo: conducir un auto de Fórmula 1 lo más rápido posible. El coche no siempre podía seguir el ritmo de su talento y Kimi 'Iceman' Raikkonen tardó siete temporadas en convertirse en Campeón del Mundo. Notoriamente inanimada y poco comunicativa, la expresión congelada del velocista silencioso de hecho enmascara las profundidades ocultas de uno de los personajes más originales y populares de la historia del deporte ...
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> Lewis Hamilton 2008,2014,2015,2017-2020 </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="lewishamilton.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>El trigésimo campeón del mundo de Fórmula 1 fue el más joven de la historia, y se llevó su primer título de la manera más dramática: en la última curva de la última vuelta de la última carrera de una de las temporadas más brillantes. El sensacional triunfo del primer piloto negro del deporte, en solo su segundo año en la cima del automovilismo, fue una historia de interés humano bienvenida que centró una atención internacional sin precedentes en las carreras de Fórmula 1. Su talento prodigioso y su agradable personalidad hicieron de Lewis Hamilton un modelo inspirador a seguir y un embajador ideal para su profesión ...
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> Jenson Button 2009 </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="jensonbuttin.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>El Campeón del Mundo de 2009 creció en el deporte, madurando de un joven despreocupado distraído por tener demasiadas cosas demasiado pronto en un sobreviviente experimentado que trabajó en la oscuridad durante una década antes de que su perseverancia de repente rindiera frutos en un final de cuento de hadas con un equipo que provenía de en ningún lugar. Su inesperado triunfo por el título fue en parte producto de circunstancias que impidieron que otros contendientes superaran su sensacional ventaja, pero finalmente fue el talento y la tenacidad de Jenson Button lo que lo llevó a la cima ...
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> Sebastian Vettel 2010-2013 </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="sebastianvettel.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>La acumulación de récords relacionados con la edad del campeón mundial más joven que comenzó en 2010 continuó durante cuatro temporadas consecutivas, culminando con un triunfo unilateral del título en 2013 que confirmó su estatus como uno de los grandes de todos los tiempos del deporte. El primer campeonato de Sebastian Vettel, a la edad de 23 años, proporcionó un final sorpresa a una campaña de 2010 intensamente competitiva. Seguramente había más por venir de este corredor en rápido ascenso, y llegó rápidamente cuando dominó por completo en 2011 para convertirse en el doble campeón mundial más joven. En 2012, con una serie de remontadas de reveses contra la oposición más fuerte en la temporada más larga de la historia, su tercer título de pilotaje consecutivo fue ganado con esfuerzo y bien merecido. En 2013, y todavía con solo 26 años, se escapó de convertirse en el campeón mundial cuádruple más joven de la historia.
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> Nico Rosberg - 2016 </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="nicorosberg.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>Cuando tenía solo seis años, Nico Rosberg decidió que iba a emular a su famoso padre y convertirse en Campeón del Mundo de Fórmula Uno. Parecía una fantasía descabellada, incluso para un niño que se beneficia de una educación privilegiada en Mónaco. De hecho, a Nico le tomó 25 años de arduo esfuerzo hacer realidad el sueño de su infancia. Su búsqueda del campeonato tuvo un alto precio, lo que provocó un giro final en la historia del triunfo. Cinco días después de hacerse con el título, en un dramático enfrentamiento en la última carrera con su compañero de equipo Lewis Hamilton, el Campeón del Mundo de 2016 anunció su retiro inmediato de la cima del automovilismo.
+                        ]]>
+                    </Label.Text>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

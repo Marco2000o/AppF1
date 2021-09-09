@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuprincipal.Acerca"
+             Title="Acerca">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10, 20, 10, 20">
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> NORMATIVA DE CONFIDENCIALIDAD </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         Esta normativa de confidencialidad (la “Normativa de confidencialidad”) describe los fundamentos sobre los cuales procesaremos los datos personales que nosotros recopilemos o que usted nos facilite. No somos responsables de las normativas de confidencialidad de otros sitios web o aplicaciones, por lo que le recomendamos que lea todos los términos y condiciones y normativas de confidencialidad correspondientes cuando utilice otros sitios web y aplicaciones.
+A efectos de la legislación de protección de datos, nosotros somos el controlador de datos.
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> SEGURIDAD </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         Disponemos de protocolos de seguridad para proteger su Información frente a acceso no autorizado, uso o revelación indebidos, modificación no autorizada y destrucción ilegal o pérdida accidental. Solo permitimos el acceso a nuestras bases de datos cuando es necesario, y siempre según unas estrictas directrices sobre el uso que hacemos de dichos datos.
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> CAMBIOS EN NUESTRA NORMATIVA DE CONFIDENCIALIDAD </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         Las leyes y prácticas sobre intimidad están en constante desarrollo. Nuestras normas y procedimientos se encuentran, por tanto, en revisión continua. De forma ocasional, podemos actualizar nuestra normativa de confidencialidad. Dichos cambios se publicarán en esta página. Consúltela con frecuencia para comprobar cualquier actualización o cambio practicado en la Normativa de confidencialidad.
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> NOSOTROS </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         Realizado por los alumnos Martínez Olivares Marco Antonio y Posadas Vazquez Javier de la Universidad Politécnica del Valle de México.
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="upvm.png"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> VERSION </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         1.10
+                        ]]>
+                    </Label.Text>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

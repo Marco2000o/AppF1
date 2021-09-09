@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuprincipal.Galeria"
+             Title="Galeria">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10, 20, 10, 20">
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> MERCEDES AMG </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="m1.jpg"/>
+                <Image Source="m2.jpg"/>
+                <Image Source="m3.jpg"/>
+                <Image Source="m4.jpg"/>
+                <Image Source="m5.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> ALPINE </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="a1.jpg"/>
+                <Image Source="a2.jpg"/>
+                <Image Source="a3.jpg"/>
+                <Image Source="a4.jpg"/>
+                <Image Source="a5.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> HAAS </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="h1.jpg"/>
+                <Image Source="h2.jpg"/>
+                <Image Source="h3.jpg"/>
+                <Image Source="h4.jpg"/>
+                <Image Source="h5.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> MCLAREN </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="mc1.jpg"/>
+                <Image Source="mc2.jpg"/>
+                <Image Source="mc3.jpg"/>
+                <Image Source="mc4.jpg"/>
+                <Image Source="mc5.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> ALFA ROMEO </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="ar1.jpg"/>
+                <Image Source="ar2.jpg"/>
+                <Image Source="ar3.jpg"/>
+                <Image Source="ar4.jpg"/>
+                <Image Source="ar5.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> RED BULL </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="rb1.jpg"/>
+                <Image Source="rb2.jpg"/>
+                <Image Source="rb3.jpg"/>
+                <Image Source="rb4.jpg"/>
+                <Image Source="rb5.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> ASTON MARTIN </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="am1.jpg"/>
+                <Image Source="am2.jpg"/>
+                <Image Source="am3.jpg"/>
+                <Image Source="am4.jpg"/>
+                <Image Source="am5.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> FERRARI </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="f1.jpg"/>
+                <Image Source="f2.jpg"/>
+                <Image Source="f3.jpg"/>
+                <Image Source="f4.jpg"/>
+                <Image Source="f5.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> ALPHATAURI </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="at1.jpg"/>
+                <Image Source="at2.jpg"/>
+                <Image Source="at3.jpg"/>
+                <Image Source="at4.jpg"/>
+                <Image Source="at5.jpg"/>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                        <br>
+                         <font color=#e10600 solid> WILLIAMS </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="w1.jpg"/>
+                <Image Source="w2.jpg"/>
+                <Image Source="w3.jpg"/>
+                <Image Source="w4.jpg"/>
+                <Image Source="w5.jpg"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

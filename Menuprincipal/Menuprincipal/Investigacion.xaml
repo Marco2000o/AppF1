@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuprincipal.Investigacion"
+             Title="Nuevas carreras">
+    <ContentPage.Content>
+        <ScrollView>
+                <StackLayout Padding="10, 20, 10, 20">
+                    <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                        <Label.Text>
+                            <![CDATA[
+                         <font color=#e10600 solid> 2021 </center></fon><br/> </center></fon>
+                        ]]>
+                        </Label.Text>
+                    </Label>
+                    <Image Source="pc1"/>
+                    <Image Source="pc2"/>
+                    <Image Source="pc3"/>
+                    <Image Source="pc4"/>
+                    <Image Source="pc5"/>
+                    <Image Source="pc6"/>
+                    <Image Source="pc7"/>
+                    <Image Source="pc8"/>
+                    <Image Source="pc9"/>
+                    <Image Source="pc10"/>
+                    <Image Source="pc11"/>
+                    <Image Source="pc12"/>
+                    <Image Source="pc13"/>
+                    <Image Source="pc14"/>
+                </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

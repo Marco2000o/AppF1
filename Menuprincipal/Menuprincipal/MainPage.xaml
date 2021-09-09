@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuprincipal.MainPage"
+             Title="F1-Fans"
+             NavigationPage.HasNavigationBar="true" >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Text = "Cerrar sesión"
+            Order="Primary"
+            Priority="0"
+            x:Name="btn_sesion"
+            Clicked="btn_sesion_Clicked"
+        />    
+    </ContentPage.ToolbarItems>
+    
+    
+    <Grid>
+        <TableView Intent="Menu" HasUnevenRows="True" RowHeight="75" x:Name="menuPrincipal" HorizontalOptions="Center" VerticalOptions="Center" Background= "#e10600">
+            <TableRoot>
+                <TableSection>
+                    <ViewCell Height="95">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="#e10600">
+                            <Image Source="f1_logoBlanco.png"/>
+                            <Label Text="" VerticalOptions="Center" TextColor="Black" />
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <TableSection>
+                    <ViewCell Tapped="PagNoticias" Height="65">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="White">
+                            <Image Source="carrera.png"/>
+                            <Label Text="Carreras" VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+
+                    <ViewCell Tapped="PagProximosEventos" Height="65">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="White">
+                            <Image Source="pilotos.png"/>
+                            <Label Text="Pilotos" VerticalOptions="Center" TextColor="Black"/>
+
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell Tapped="PagControlEscolar" Height="65">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="White">
+                            <Image Source="escuderias.png"/>
+                            <Label Text="Escuderias" VerticalOptions="Center" TextColor="Black"/>
+
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell Tapped="PagConvocatorias" Height="65">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="White">
+                            <Image Source="constructores.png"/>
+                            <Label Text="Carrera de constructores" VerticalOptions="Center" TextColor="Black"/>
+
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell Tapped="PagEstancias" Height="65">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="White">
+                            <Image Source="rango.png"/>
+                            <Label Text="Salon de la  fama" VerticalOptions="Center" TextColor="Black"/>
+
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell Tapped="PagInvestigacion" Height="65">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="White" Opacity="2">
+                            <Image Source="calendario.png"/>
+                            <Label Text="Nuevas Carreras" VerticalOptions="Center" TextColor="Black"/>
+
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell Tapped="PagGaleria" Height="65">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="White">
+                            <Image Source="galeria.png"/>
+                            <Label Text="Galería" VerticalOptions="Center" TextColor="Black"/>
+
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell Tapped="PagAcerca" Height="65">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="White">
+                            <Image Source="acercade.png"/>
+                            <Label Text="Acerca de" VerticalOptions="Center" TextColor="Black"/>
+
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot> 
+        </TableView>
+    </Grid>
+   
+   
+
+</ContentPage>

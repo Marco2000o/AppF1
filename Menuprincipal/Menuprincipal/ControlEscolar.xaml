@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuprincipal.ControlEscolar"
+             Title="Escuderias">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10, 20, 10, 20">
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> MERCEDES AMG </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="mercedez.jpg"/>
+                <Label HorizontalTextAlignment="Start" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>
+                         <ul>
+                         <li>Base Brackley, Reino Unido.</li>
+                         <li>País de nacimiento: Alemania.</li>
+                         <li>Director Deportivo: Toto Wolff.</li>
+                         <li>Jefe Técnico: James Allison.</li>
+                         <li>Chasis: W12.</li>
+                         <li>Motor: Mercedes</li>
+                         <li>Neumáticos: Pirelli</li>
+                         <li>Primera Temporada: 1970.</li>
+                         <li>Campeonatos: 7</li>
+                         </ul>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> ALPINE </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="alpine.jpg"/>
+                <Label HorizontalTextAlignment="Start" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>
+                         <ul>
+                         <li>Base Enstone, Reino Unido.</li>
+                         <li>País de nacimiento: Reino Unido.</li>
+                         <li>Director Deportivo: Davide Brivio.</li>
+                         <li>Jefe Técnico: Pat Fry / Remi Taffin.</li>
+                         <li>Chasis: A521.</li>
+                         <li>Motor: Renault.</li>
+                         <li>Neumáticos: Pirelli.</li>
+                         <li>Primera Temporada 1986.</li>
+                         <li>Campeonatos: 2</li>
+                         </ul>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> HAAS </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="haas.jpg"/>
+                <Label HorizontalTextAlignment="Start" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>
+                         <ul>
+                         <li>Base Kannapolis, Estados Unidos.</li>
+                         <li>País de nacimiento: Estados Unidos.</li>
+                         <li>Director Deportivo: Guenther Steiner.</li>
+                         <li>Jefe Técnico: Simone Resta.</li>
+                         <li>Chasis: VF-21.</li>
+                         <li>Motor: Ferrari.</li>
+                         <li>Neumáticos: Pirelli.</li>
+                         <li>Primera Temporada 2016.</li>
+                         <li>Campeonatos: 0</li>
+                         </ul>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> MCLAREN </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="mclaren.jpg"/>
+                <Label HorizontalTextAlignment="Start" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>
+                         <ul>
+                         <li>Base Woking, Reino Unido.</li>
+                         <li>País de nacimiento: Reino Unido.</li>
+                         <li>Director Deportivo: Andreas Seidl.</li>
+                         <li>Jefe Técnico: James Key.</li>
+                         <li>Chasis: MCL35M.</li>
+                         <li>Motor: Mercedes.</li>
+                         <li>Neumáticos: Pirelli.</li>
+                         <li>Primera Temporada 1966.</li>
+                         <li>Campeonatos: 8</li>
+                         </ul>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> ALFA ROMEO </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="alfaromeo.jpg"/>
+                <Label HorizontalTextAlignment="Start" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>
+                         <ul>
+                         <li>Base Woking, Hinwil, Suiza.</li>
+                         <li>País de nacimiento: Italia.</li>
+                         <li>Director Deportivo: Frédéric Vasseur.</li>
+                         <li>Jefe Técnico: Jan Monchaux.</li>
+                         <li>Chasis: C41.</li>
+                         <li>Motor: Ferrari.</li>
+                         <li>Neumáticos: Pirelli.</li>
+                         <li>Primera Temporada 1993.</li>
+                         <li>Campeonatos: 0</li>
+                         </ul>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> RED BULL </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="redbull.jpg"/>
+                <Label HorizontalTextAlignment="Start" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>
+                         <ul>
+                         <li>Base Milton Keynes, Reino Unido.</li>
+                         <li>País de nacimiento: Austria.</li>
+                         <li>Director Deportivo: Christian Horner.</li>
+                         <li>Jefe Técnico: Pierre Waché.</li>
+                         <li>Chasis: RB16B.</li>
+                         <li>Motor: Honda.</li>
+                         <li>Neumáticos: Pirelli.</li>
+                         <li>Primera Temporada 1997.</li>
+                         <li>Campeonatos: 4</li>
+                         </ul>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> ASTON MARTIN </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="astonmartin.jpg"/>
+                <Label HorizontalTextAlignment="Start" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>
+                         <ul>
+                         <li>Base Silverstone, Reino Unido.</li>
+                         <li>País de nacimiento: Reino Unido.</li>
+                         <li>Director Deportivo: Otmar Szafnauer.</li>
+                         <li>Jefe Técnico: Andrew Green.</li>
+                         <li>Chasis: AMR21.</li>
+                         <li>Motor: Mercedes.</li>
+                         <li>Neumáticos: Pirelli.</li>
+                         <li>Primera Temporada 1997.</li>
+                         <li>Campeonatos: 0</li>
+                         </ul>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> FERRARI </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="ferrari.jpg"/>
+                <Label HorizontalTextAlignment="Start" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>
+                         <ul>
+                         <li>Base Maranello.</li>
+                         <li>País de nacimiento: Italia.</li>
+                         <li>Director Deportivo: Mattia Binotto.</li>
+                         <li>Jefe Técnico: Enrico Cardile / Enrico Gualtieri.</li>
+                         <li>Chasis: SF21.</li>
+                         <li>Motor: Ferrari.</li>
+                         <li>Neumáticos: Pirelli.</li>
+                         <li>Primera Temporada 1950.</li>
+                         <li>Campeonatos: 16</li>
+                         </ul>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> ALPHATAURI </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="alphatauri.jpg"/>
+                <Label HorizontalTextAlignment="Start" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>
+                         <ul>
+                         <li>Base Faenza, Italia.</li>
+                         <li>País de nacimiento: Italia.</li>
+                         <li>Director Deportivo: Franz Tost.</li>
+                         <li>Jefe Técnico: Jody Egginton.</li>
+                         <li>Chasis: AT02.</li>
+                         <li>Motor: Honda.</li>
+                         <li>Neumáticos: Pirelli.</li>
+                         <li>Primera Temporada 1985.</li>
+                         <li>Campeonatos: 0</li>
+                         </ul>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Label HorizontalTextAlignment="Center" TextType="Html" FontSize="Title" FontAttributes="Bold">
+                    <Label.Text>
+                        <![CDATA[
+                         <font color=#e10600 solid> WILLIAMS </center></fon><br/> </center></fon>
+                        ]]>
+                    </Label.Text>
+                </Label>
+                <Image Source="williams.jpg"/>
+                <Label HorizontalTextAlignment="Start" TextType="Html" FontSize="Medium" FlowDirection="MatchParent">
+                    <Label.Text>
+                        <![CDATA[
+                         <br>
+                         <ul>
+                         <li>Base Grove, Reino Unido.</li>
+                         <li>País de nacimiento: Reino Unido.</li>
+                         <li>Director Deportivo: Simon Roberts.</li>
+                         <li>Jefe Técnico:  Dave Robson.</li>
+                         <li>Chasis: FW43B.</li>
+                         <li>Motor: Mercedes.</li>
+                         <li>Neumáticos: Pirelli.</li>
+                         <li>Primera Temporada 1978.</li>
+                         <li>Campeonatos: 9</li>
+                         </ul>
+                        ]]>
+                    </Label.Text>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

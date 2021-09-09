@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuprincipal.Vlogin">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Login" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Entry Placeholder="Correo-e" x:Name="txtCorreo"/>
+            <Entry Placeholder="Contraseña" x:Name="txtContrasena"/>
+            <Entry Placeholder="Respuesta del servidor"  x:Name="txtRespuesta"/>
+            <Button Text="Iniciar sesión" x:Name="btnEntrar" Clicked="btnEntrar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
